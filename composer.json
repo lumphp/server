@@ -1,0 +1,27 @@
+{
+    "name": "lumphp/server",
+    "type": "library",
+    "description": "an php server contract",
+    "keywords": [
+        "RPC",
+        "server"
+    ],
+    "authors": [
+        {
+            "name": "lumphp",
+            "email": "lumphp@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "ext-json": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Lum\\Server\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
